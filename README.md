@@ -9,6 +9,20 @@ exchange assets via transactions.
 Create a Business Network
 =================================
 
+The main objective of Hyperledger Composer is to define a 
+`business network definition (BND)`. It defines the data model, 
+transaction logic, and access control rules in a blockchain solution. 
+
+Use the follwoing `Yeoman generator` command to create a skeleton business 
+network. 
+
+```bash
+yo hyperledger-composer:businessnetwork
+```
+It will prompt for business network name, description, author name, author 
+email address, license selection and namespace. If successful, it will create 
+a directory containing all of the components of a business network.
+
 ```bash
 $ yo hyperledger-composer:businessnetwork 
 Welcome to the business network generator
